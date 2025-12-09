@@ -1,5 +1,5 @@
 # SlotAttention4EuroSAT
-This is grid search code for a MobileViT backbone + slot-attention classification algorithm that achieved 98.54% test accuracy compared to current SoTA publication results. with a 36% parameter reduction compared to current SOTA performance: Automated classification of remote sensing satellite images using deep learning based vision transformer 
+This is grid search code for a MobileViT backbone + slot-attention EuroSAT classification algorithm that achieved 98.54% test accuracy compared to current SoTA publication results: 98.54%. with a 36% parameter reduction compared to current SOTA performance: Automated classification of remote sensing satellite images using deep learning based vision transformer 
 https://link.springer.com/article/10.1007/s10489-024-05818-y
 
 OPTIMIZED ATTENTION MECHANISM
