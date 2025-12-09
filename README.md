@@ -19,7 +19,7 @@ i.	Results
 
 a.	Experimental configuration
 
-The performance of the optimized attention mechanism was evaluated using the mobilevitv2_075 backbone. The specific slot-attention configuration had a hidden dimension of 128.
+The performance of the optimized attention mechanism was evaluated using the mobilevitv2_075 backbone. The specific slot-attention configuration had: Lambda: 0.05, Dropout: 0.1, Slots Per Class: 1, Slot Iterations: 5, Stage 1 Epoch: 55, LR: 4e-4, Stage 2 Epoch: 45, LR: 1e-4 MobileViT parameter Count: ~2.2Million, Slot Attention parameter Count ~500k
 
 b.	Quantitative analysis
 
