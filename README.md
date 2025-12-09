@@ -1,9 +1,10 @@
 # SlotAttention4EuroSAT
-This is grid search code for a MobileViT backbone + slot-attention classification algorithm that achieved 98.54% test accuracy compared to current SoTA publication results. with a 36% parameter reduction compared to current SOTA performance: https://link.springer.com/article/10.1007/s10489-024-05818-y
+This is grid search code for a MobileViT backbone + slot-attention classification algorithm that achieved 98.54% test accuracy compared to current SoTA publication results. with a 36% parameter reduction compared to current SOTA performance: Automated classification of remote sensing satellite images using deep learning based vision transformer 
+https://link.springer.com/article/10.1007/s10489-024-05818-y
+
 OPTIMIZED ATTENTION MECHANISM
 
 i. Motivation
-
     While transformers are undeniably a key standing point for leveraging large data for regression tasks, there are many flaws which are key research topics amongst the deep learning community. One of which is the ‘rank collapse’, this occurs when query, key, value projection matrices share much of the same domain, thus constraining the information transfer and limiting the exploration of weight combinations. This often occurs due to the input signal homogeneity into the embedding dimension. In a typical stand-alone encoder gpt the same input is given into the q,k,v matrices, which can be redundant depending on the weight configuration. As such, various training experiments were performed to improve the capacity of the dot product operations, particularly ‘slot-attention’ in its initial development succeeded at creating explainable attention heat maps along with a unique capacity for unsupervised object detection. Though it was not until the implementation of SCOUTER[5] that it was directly applied to classification tasks. 
 
 ii. Slot-attention algorithm
