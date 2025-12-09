@@ -42,3 +42,6 @@ Best Accuracy	98.67% (Val) / 98.54% (Test)	98.5%
 Total Parameters	~2.66 Million (2,664,049)	~4.17 Million (4,166,151) 
 Architecture Base	Hybrid (ViT Backbone + Slot Attention)	Pure ViT (Vision Transformer) 3
 Attention Mechanism	Slot Attention (Iterative, Grouping)	Local Self-Attention (LSA) (Window-based) 44
+
+# TO RUN:
+start a new venv, download the requirements, download EuroSAT, download and unzip scouter.zip, change the respective data reference directories and save configs.
